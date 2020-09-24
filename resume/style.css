@@ -1,10 +1,13 @@
+/* styles for my resume */
 
+/* all header, paragraph, list and list items*/
 BODY {
   font-family: 'Open Sans', Arial, sans-serif;
   color:#444;
   font-weight:400;
 }
 
+/* banner name at top */
 h1 {
   color:#33485e;
   text-transform:uppercase;
@@ -12,12 +15,14 @@ h1 {
   font-size:3em;
 }
 
+/* title */
 strong {
   color:#33485e;
   text-transform:uppercase;
   font-size:1.5em;
 }
 
+/* individual section titles experienc, education, skills */
 h2 {
   font-size:1.5em;
   text-transform:uppercase;
@@ -26,22 +31,26 @@ h2 {
   font-weight:400;
 }
 
+/* education section job titles */
 h3 {
   font-weight:600;
   font-size:1.5em;
 }
 
+/* education section job organizations */
 h4 {
   font-weight:400;
   font-size:1.5em;
 }
 
+/* education section job dates */
 h5 {
   font-weight:400;
   font-style:italic;
   font-size:1em;
 }
 
+/* lists under contact info, skills, education sections */
 ul {
   font-size:1em;
 }
