@@ -69,6 +69,7 @@ ul {
   font-size:1em;
 }
 
+/* education section descriptions */
 .description {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -76,17 +77,20 @@ ul {
   margin-right: 0;
 }
 
+/* contact information list */
 .menu {
   margin: 0;
   padding: 0;
   text-align:center;
 }
 
+/* target contact information list items */
 #menu {
   display:inline;
   list-style-type: none;
 }
 
+/* education section list */
 #degrees {
   margin-top: 5px;
   margin-bottom: 0;
@@ -94,6 +98,7 @@ ul {
   margin-right: 0;
 }
 
+/* skills section list */
 #do {
   margin-top: 5px;
   margin-bottom: 0;
@@ -101,6 +106,7 @@ ul {
   margin-right: 0;
 }
 
+/* title - student */
 #title {
   font-weight: 600;
   text-align:center;
@@ -110,6 +116,7 @@ ul {
   margin-right: 0;
 }
 
+/* inside BODY section in html document */
 #container {
   width: 100%;
   max-width:1200px;
