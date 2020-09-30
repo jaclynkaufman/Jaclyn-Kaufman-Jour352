@@ -100,3 +100,22 @@ ul {
   margin-left: 0;
   margin-right: 0;
 }
+
+#title {
+  font-weight: 600;
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#container {
+  width: 100%;
+  max-width:1200px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 50px;
+  padding-right: 0;
+  padding-left: 0;
+}
