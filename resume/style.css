@@ -8,11 +8,15 @@ BODY {
 }
 
 /* banner name at top */
-h1 {
+#name {
   color:#33485e;
   text-transform:uppercase;
   text-align:center;
   font-size:3em;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* title */
@@ -23,31 +27,41 @@ strong {
 }
 
 /* individual section titles experienc, education, skills */
-h2 {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
   color:#ffffff;
   font-weight:400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* education section job titles */
-h3 {
+.jobtitle {
   font-weight:600;
   font-size:1.5em;
 }
 
 /* education section job organizations */
-h4 {
+.organization {
   font-weight:400;
-  font-size:1.5em;
+  font-size:1.25em;
 }
 
 /* education section job dates */
-h5 {
+.date {
   font-weight:400;
   font-style:italic;
   font-size:1em;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* lists under contact info, skills, education sections */
