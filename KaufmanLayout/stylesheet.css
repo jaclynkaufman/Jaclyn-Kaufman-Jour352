@@ -1,0 +1,57 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* banner/masthead */
+#masthead {
+  text-align:center;
+  width: 100%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/* headline */
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align:left;
+  width: 100%;
+  min-width: 300px;
+  line-height: 120%;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 3px;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+blockquote {
+  font: 24px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: red;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+img {
+  text-align:center;
+  width: 100%;
+}
+
+figcaption {
+  font-size: 12px;
+}
