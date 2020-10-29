@@ -23,41 +23,51 @@
 
 <body>
 
-<!-- NavBar -->
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  <!--Bootstrap NavBar start-->
+  <div class="navbar">
+    <nav class="navbar navbar-expand navbar-dark" width="100%">
+    <a class="navbar-brand" href="#name-section">Jaclyn Kaufman</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#name-section">Jaclyn Kaufman</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#name-section">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education-section">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience-section">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills-section">Skills</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-section">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education-section">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience-section">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills-section">Skills</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <!--Bootstrap NavBar end-->
 
 <div id="name-section">
-  <img src="masthead2.png" class="img-fluid" alt="Masthead Kaufman" width="100%">
+  <img src="final-masthead1@2x.png" class="img-fluid" alt="Masthead Kaufman" width="100%">
 </div>
 
-<div class="container">
-  <div class="social">
-    <a href="mailto:jkaufman1899@gmail.com"><i class="fas fa-envelope fa-2x" style="color:white; background:#D997A1";></i></a>
+<div class="container" align="center";>
+  <div class="social" width="100%">
+    <a href="mailto:jkaufman1899@gmail.com"><i class="fas fa-envelope circle-icon fa-2x" style="color:white; background:#D997A1";></i></a>
     <a href="https://www.linkedin.com/in/jaclynkaufman"><i class="fab fa-linkedin fa-2x" style="color:white; background:#D997A1";></i></a>
     <a href="https://twitter.com/jaclyn_kaufman"><i class="fab fa-twitter fa-2x" style="color:white; background:#D997A1";></i></a>
     <a href="https://github.com/jaclynkaufman"><i class="fab fa-github fa-2x" style="color:white; background:#D997A1";></i></a>
-  </div>  
+  </div>
+</div>
+
+<!-- About Me -->
+<div class="sectionheader" id="about-section">About Me</div>
+<div class="container">
+  <p>Born and raised in New York, I have always had a passion for journalism. Living thirty minutes away from one of the most newsworthy and inspiring cities allowed me to discover my interest in writing, editing and photography at a young age. The courses I have taken at the University of Maryalnd have fine-tuned my skills, making me more than prepared to work in a professional newsroom.</p>
 </div>
 
 <!-- Education Section -->
@@ -65,26 +75,31 @@
 
 <div class="content" width="80%">
   <div class="container">
-<div id="experience-outline">
-    <div class="row">
-      <div class="col-md-8">
-        <h3 class="school">University of Maryland</h3>
-      </div>
-      <div class="col-md-4">
-        <div class="educationdescription">Bachelor of Arts, Journalism</div>
-        <div class="educationdescription">Minor in Business</div>
-      </div>
+    <div id="experience-outline">
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="school">University of Maryland</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="educationdescription">Bachelor of Arts, Journalism</div>
+          <div class="educationdescription">Minor in Business</div>
+        </div>
       </div>
     </div>
+  </div>
 
-<div id="experience-outline">
-<div class="row">
-      <div class="col-md-8">
-        <h3 class="school">International Studies Institute</h3>
-      </div>
-      <div class="col-md-4">
-        <div class="educationdescription">Florence, Italy</div>
-        <div class="educationdescription">January 2020-May 2020</div>
+<br>
+
+<div class="content" width="80%">
+  <div class="container">
+    <div id="experience-outline">
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="school">International Studies Institute</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="educationdescription">Florence, Italy</div>
+          <div class="educationdescription">January 2020-May 2020</div>
       </div>
     </div>
   </div>
@@ -154,55 +169,19 @@
 <div class="sectionheader" id="skills-section">Skills</div>
 
 <div class="container">
-        <div class="row">
-              <div class="col-md-4">
-                  <h3 class="circle">Pr</h3>
-                    <p>Premiere</p>
-                </div>
-
-                <div class="col-md-4">
-                    <h3 class="circle"></h3>
-                      <p>Microsoft</p>
-                  </div>
-
-                  <div class="col-md-4">
-                      <h3 class="circle"></h3>
-                      <p>Audition</p>
-                  </div>
-              </div>
-          </div>
+  <h3 class="skill">Adobe Premiere Pro</h3>
+  <h3 class="skill">Microsoft Office</h3>
+  <h3 class="skill">Adobe Audition</h3>
+  <h3 class="skill">WordPress</h3>
+  <h3 class="skill">Social Media</h3>
 </div>
 
-<div class="container">
-        <div class="row">
-              <div class="col-md-6">
-                  <h3 class="circle"></h3>
-                    <p>WordPress</p>
-                </div>
-
-                <div class="col-md-6">
-                    <h3 class="circle"></h3>
-                      <p>Social Media</p>
-                  </div>
-              </div>
-          </div>
-        </div>
-
-
-<div class="content">
-  <div class="skills">
-    <p>Proficient in Microsoft Office</p>
-    <p>Video editing in Adobe Premiere Pro</p>
-    <p>Producing web content in WordPress</p>
-    <p>Sound editing in Adobe Audition</p>
-    <p>Social media tools</p>
-  </div>
-</div>
-
+<br>
 <!-- Footer -->
 <div class="footer">
-  <p>© 2020 Jaclyn Kaufman</p>
+  <p style="color:white;">© 2020 Jaclyn Kaufman</p>
 </div>
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

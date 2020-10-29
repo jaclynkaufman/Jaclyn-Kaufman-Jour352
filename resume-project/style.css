@@ -20,8 +20,12 @@ BODY {
   text-align: center;
 }
 
-.nav-lin {
-  text-align: left;
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  text-align:left;
 }
 
 .school {
@@ -90,29 +94,36 @@ ul {
 
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: black;
-  border: 2px solid black;
-  text-align: center;
-  background: #D997A1;
-}
-
 .footer {
   text-align: center;
-  color: black;
-  background-color: gray;
+  background-color: black;
   height: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .skills {
   color:black;
   font-weight:400;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color:black;
+  font-weight:400;
+}
+
+.skill {
+  font-weight:300;
+  font-size:30px;
+  color:black;
+  background-color:white;
+  border-radius: 50px;
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   text-align: center;
 }
