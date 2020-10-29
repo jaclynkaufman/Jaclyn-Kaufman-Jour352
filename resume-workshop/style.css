@@ -7,6 +7,10 @@ BODY {
   font-weight:400;
 }
 
+.fruit {
+  color: #000000;
+}
+
 /* inside BODY section in html document */
 #container {
   width: 100%;

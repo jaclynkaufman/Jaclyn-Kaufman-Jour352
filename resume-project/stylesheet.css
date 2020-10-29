@@ -1,10 +1,31 @@
 /* styles for my resume */
+#content {
+  margin: 0 auto;
+  width: 800px;
+}
+
 
 /* all header, paragraph, list and list items*/
 BODY {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   color:#444;
   font-weight:400;
+  height: 100%;
+  max-width: 90%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 5px solid black;
+  padding: 15px;
+}
+
+p.box {
+  border-style: solid;
+  border-width: thin;
 }
 
 /* inside BODY section in html document */
@@ -20,14 +41,15 @@ BODY {
 
 /* banner name at top */
 #name {
-  color:#33485e;
-  text-transform:uppercase;
-  text-align:center;
+  color:white;
+  text-align:left;
   font-size:3em;
-  border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 /* title */
@@ -43,12 +65,11 @@ BODY {
   margin-right: 0;
 }
 
-/* individual section titles experienc, education, skills */
-.sectionheader {
-  font-size:1.5em;
+/* individual section titles experience, education, skills */
+.sectionheader .col-md-6 {
+  font-size:80px;
   text-transform:uppercase;
-  background-color:#33485e;
-  color:#ffffff;
+  color:#EAB9BD;
   font-weight:400;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -56,6 +77,7 @@ BODY {
   margin-right: 0;
   width: 70%;
   min-width: 300px;
+  text-align: center;
 }
 
 /* education section job titles */
@@ -121,4 +143,9 @@ ul {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
