@@ -133,11 +133,6 @@ p {
   font-size: 3em;
   font-weight: 700;
   text-align: left;
-  padding: 15px 0 15px 0;
-  border-top: 1px solid #f23030;
-  border-bottom: 1px solid #f23030;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .quote-attribution {
