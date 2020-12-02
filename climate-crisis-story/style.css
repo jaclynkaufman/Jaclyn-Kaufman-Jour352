@@ -30,12 +30,17 @@
   color: black;
   margin: 0 auto;
   padding-bottom: 10px;
-  font-weight: 900px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .hero-sub {
   font-family: Georgia, serif;
   font-size: .25em;
+  text-transform: none !important;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
 }
 
 .container {
@@ -59,12 +64,13 @@
 
 #chapter {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 600px;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   padding-top: 20px;
   color: #f23030;
+  text-decoration: underline;
 }
 
 p {
@@ -133,6 +139,7 @@ p {
   font-size: 3em;
   font-weight: 700;
   text-align: left;
+  padding-top: 2px;
 }
 
 .quote-attribution {
