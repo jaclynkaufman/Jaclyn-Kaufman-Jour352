@@ -1,18 +1,42 @@
+.hero-container {
+  position:relative;
+  text-align:center;
+  color: #fff;
+}
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("placeholder-image.png");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  width:100%;
 }
 
-.hero-text {
-  text-align: center;
+.graphics  {
+  width: 80%;
+}
+
+.overlay {
+  opacity: .8;
+  background-color: white;
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: 5px solid #f23030;
 }
 
+.hero-hed {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  color: black;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-weight: 900px;
+}
+
+.hero-sub {
+  font-family: Georgia, serif;
+  font-size: .25em;
+}
 
 .container {
   text-align: center;
@@ -20,9 +44,9 @@
 }
 
 #headline {
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
+  font-size: 4em;
+  font-weight: 500;
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,20 +54,23 @@
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 #chapter {
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 500;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: #f23030;
 }
 
 p {
   font-family: Georgia, serif;
   line-height: 180%;
-  font-size: 1em;
+  font-size: 1.25em;
   text-align: left;
   padding-top: 5px;
 }
@@ -63,6 +90,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: .8em;
   padding-bottom: 15px;
+  color: gray;
 }
 
 .footer {
@@ -82,4 +110,91 @@ p {
 
 #column {
   text-align: center;
+}
+
+/* Top Nav / Top hat */
+
+.nav-top {
+  color:#fff;
+  margin: 0 auto;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.red {
+  color:#f23030;
+}
+
+/* pull quote */
+
+.quote {
+  font-family: Georgia, serif;
+  color:#f23030;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution {
+  font-size: .5em;
+  font-family: Georgia, serif;
+  font-weight: 100;
+  text-align: left;
+  color: #000;
+}
+/* end pull quote */
+
+.credits {
+  font-style: italic;
+}
+
+.sidebar {
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1.25em;
+  text-align: center;
+  padding-top: 5px;
+  border: 2px solid red;
+  width: 80%;
+  padding: 5px;
+  align-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+/* normal link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: navy;
+}
+
+/* hover */
+a:hover {
+  color: red;
+}
+
+
+/* Media queries */
+
+@media (max-width:800px) {
+
+  .hero-hed {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
