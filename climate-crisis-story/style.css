@@ -155,31 +155,6 @@ p {
   font-style: italic;
 }
 
-/* normal link */
-a:link {
-  color: blue;
-}
-
-/* visited link */
-a:visited {
-  color: navy;
-}
-
-/* hover */
-a:hover {
-  color: red;
-}
-
-
-/* Media queries */
-
-@media (max-width:800px) {
-
-  .hero-hed {
-    font-size: 1.5em;
-  }
-}
-
 #mySidenav a {
   position: absolute;
   left: -580px;
@@ -208,4 +183,45 @@ a:hover {
   border: 5px solid black;
   margin: 0 auto;
   padding: 10px;
+}
+
+.link {
+  color: purple;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+span:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+span:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+span:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* Media queries */
+
+@media (max-width:800px) {
+
+  .hero-hed {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width:600px) {
+
+  #about {
+    font-size: .2em;
+  }
+
 }
