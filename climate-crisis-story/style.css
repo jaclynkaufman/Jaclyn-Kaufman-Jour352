@@ -186,22 +186,24 @@ p {
 }
 
 .link {
-  color: purple;
+  color: black;
   text-decoration: underline;
   cursor: pointer;
+  font-weight: bold;
 }
 
 span:link {
   color: black;
   background-color: transparent;
   text-decoration: underline;
-  font-weight: bold;
 }
+
 span:visited {
-  color: blue;
+  color: blue !important;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: none !important;
 }
+
 span:hover {
   color: white;
   background-color: transparent;
@@ -211,17 +213,10 @@ span:hover {
 
 /* Media queries */
 
-@media (max-width:800px) {
+@media (max-width:850px) {
 
   .hero-hed {
     font-size: 1.5em;
-  }
-}
-
-@media (max-width:600px) {
-
-  #about {
-    font-size: .2em;
   }
 
 }
