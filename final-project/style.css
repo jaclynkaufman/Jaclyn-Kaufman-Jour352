@@ -1,0 +1,140 @@
+.hero-container {
+  position:relative;
+  text-align:center;
+  color: #fff;
+}
+
+.hero-image {
+  width:100%;
+}
+
+
+.hero-text {
+  text-align: center;
+  color: white;
+  font-family: 'Proza Libre', sans-serif;
+  padding-top: 40px;
+}
+
+.navbar {
+  background-color: #000966;
+  opacity: .8;
+}
+
+.container {
+  text-align: center;
+  width:100%;
+}
+
+#headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+#byline {
+  font-size: 1em;
+  font-family: 'Proza Libre', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#chapter {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 180%;
+  font-size: 1em;
+  text-align: left;
+  padding-top: 5px;
+}
+
+#photo {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.caption {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: .8em;
+  padding-bottom: 15px;
+  color: gray;
+}
+
+.footer {
+  background: black;
+  min-height: 80px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.footer-text {
+  color: white;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: .8em;
+  padding-top: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#column {
+  text-align: center;
+}
+
+/* pull quote */
+
+.col-4 {
+  background-color: #CEF0FE;
+  height: auto;
+  padding: 5px;
+  line-height: 45px;
+  float: left;
+  text-align: left;
+}
+
+.quote {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.quote-attribution {
+  font-size: .5em;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 100;
+  text-align: right;
+  color: black;
+  padding-bottom: 2px;
+}
+
+.start-quote {
+  text-align: left;
+  font-size: 6em;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: bold;
+  padding-bottom: .5px;
+}
+
+.end-quote {
+  text-align: right;
+  font-size: 6em;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: bold;
+}
+
+.col-8 {
+  padding-top: 5px;
+}
