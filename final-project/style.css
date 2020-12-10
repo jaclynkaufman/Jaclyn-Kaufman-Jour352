@@ -27,7 +27,7 @@
 }
 
 #headline {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 700;
   text-align: center;
   font-family: 'Proza Libre', sans-serif;
@@ -42,17 +42,10 @@
   text-align: center;
 }
 
-#chapter {
-  font-size: 2em;
-  font-weight: 700;
-  text-align: left;
-  font-family: 'Proza Libre', sans-serif;
-}
-
 p {
   font-family: 'Cormorant Garamond', serif;
   line-height: 180%;
-  font-size: 1em;
+  font-size: 2em;
   text-align: left;
   padding-top: 5px;
 }
@@ -91,18 +84,13 @@ p {
   letter-spacing: 2px;
 }
 
-#column {
-  text-align: center;
-}
-
 /* pull quote */
 
-.col-4 {
+.col-5 {
   background-color: #CEF0FE;
-  height: auto;
   padding: 5px;
-  line-height: 45px;
   float: left;
+  line-height: 50px;
   text-align: left;
 }
 
@@ -137,4 +125,45 @@ p {
 
 .col-8 {
   padding-top: 5px;
+}
+
+
+/* blockquote */
+blockquote {
+    font-family: 'Proza Libre', sans-serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+    font-size: 3em;
+    text-align: left;
+    background-color: #CEF0FE;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+    font-size: .7em;
+}
+blockquote cite:before {
+    content: "\2013";
+    text-align: right;
 }
