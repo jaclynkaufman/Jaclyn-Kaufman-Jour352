@@ -8,7 +8,6 @@
   width:100%;
 }
 
-
 .hero-text {
   text-align: center;
   color: white;
@@ -75,9 +74,9 @@ p {
 
 .footer {
   background: black;
-  min-height: 80px;
   margin-top: 100px;
   width: 100%;
+  min-height: 105px;
 }
 
 .footer-text {
@@ -132,7 +131,7 @@ p {
   padding-top: 5px;
 }
 
-/* blockquote */
+/* blockquote start - obtained from https://stackoverflow.com/questions/16325687/make-big-quotes-with-blockquote */
 blockquote {
     font-family: 'Proza Libre', sans-serif;
     position: relative;
