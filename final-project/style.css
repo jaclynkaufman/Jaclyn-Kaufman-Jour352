@@ -153,13 +153,6 @@ blockquote cite {
     font-size: 2em;
   }
 
-  .navbar {
-    font-size: .5em;
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-
   blockquote {
     font-size: 2em;
     max-height: 300px;
