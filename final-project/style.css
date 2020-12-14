@@ -201,4 +201,8 @@ blockquote cite:before {
     max-height: 300px;
   }
 
+  .navbar {
+    max-width: 100%;
+  }
+
 }
