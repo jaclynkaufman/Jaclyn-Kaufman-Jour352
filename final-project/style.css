@@ -225,10 +225,14 @@ blockquote cite:before {
 
 }
 
-@media (max-width: 760px) {
+@media (max-width: 812px) {
 
   #headline {
     font-size: 2em;
+  }
+
+  .navbar {
+    font-size: .2em;
   }
 
 }
