@@ -184,6 +184,11 @@ blockquote cite:before {
     text-align: right;
 }
 
+blockquote cite {
+  font-size: .5em;
+  text-align: right;
+}
+
 /* Media Queries */
 
 @media (max-width: 812px) {
