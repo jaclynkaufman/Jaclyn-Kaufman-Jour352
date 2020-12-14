@@ -194,6 +194,7 @@ blockquote cite:before {
 
   .navbar {
     font-size: 1em;
+    width: auto;
   }
 
   blockquote {
@@ -201,8 +202,5 @@ blockquote cite:before {
     max-height: 300px;
   }
 
-  .navbar {
-    font-size: .25em;
-  }
 
 }
