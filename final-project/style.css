@@ -170,3 +170,35 @@ blockquote cite:before {
     content: "\2013";
     text-align: right;
 }
+
+/* Media Queries */
+
+/* Mobile phones */
+@media (max-width: 767px;) {
+  .navbar {
+    font-size: .5em;
+  }
+
+  #headline {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+
+}
+
+/* Small Desktops */
+@media (min-width: 992px) {
+
+}
+
+/* large desktops */
+@media (min-width: 1200px) {
+
+}
