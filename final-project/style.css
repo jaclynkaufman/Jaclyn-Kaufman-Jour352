@@ -202,7 +202,7 @@ blockquote cite:before {
   }
 
   .navbar {
-    max-width: 100%;
+    font-size: .25em;
   }
 
 }
