@@ -185,7 +185,7 @@ blockquote cite:before {
 }
 
 blockquote cite {
-  font-size: .5em;
+  font-size: .5em !important;
   text-align: right;
 }
 
