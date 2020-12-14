@@ -198,8 +198,9 @@ blockquote cite {
   }
 
   .navbar {
-    font-size: 1em;
+    font-size: .7em;
     width: auto;
+    height: auto;
   }
 
   blockquote {
