@@ -198,21 +198,7 @@ blockquote cite:before {
 
   blockquote {
     font-size: 2em;
-  }
-
-  blockquote:before {
-    font-size: 3em;
-    position: absolute;
-  }
-
-  blockquote:after {
-      position: absolute;
-      float:right;
-      font-size:3em;
-  }
-
-  blockquote footer {
-    font-size: .5em;
+    max-height: 300px;
   }
 
 }
