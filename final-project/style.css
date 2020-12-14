@@ -186,7 +186,7 @@ blockquote cite:before {
 
 /* Media Queries */
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
 
   blockquote {
     font-family: 'Proza Libre', sans-serif;
@@ -222,5 +222,13 @@ blockquote cite:before {
       text-align:right;
       font-size: .25em;
   }
-  
+
+}
+
+@media (max-width: 760px) {
+
+  #headline {
+    font-size: 2em;
+  }
+
 }
