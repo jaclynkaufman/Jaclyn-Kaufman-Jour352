@@ -19,10 +19,8 @@
   background-color: #000966;
   opacity: .8;
   text-align: center;
-}
-
-.navbar-brand {
-  text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
 }
 
 .container {
@@ -46,10 +44,20 @@
   text-align: center;
 }
 
-p {
-  font-family: 'Cormorant Garamond', serif;
-  line-height: 180%;
+.chapter {
   font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Proza Libre', sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: #000966;
+}
+
+p {
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1.25em;
   text-align: left;
   padding-top: 5px;
 }
@@ -173,32 +181,9 @@ blockquote cite:before {
 
 /* Media Queries */
 
-/* Mobile phones */
-@media (max-width: 767px;) {
+@media () {
+
   .navbar {
-    font-size: .5em;
+    font-size:
   }
-
-  #headline {
-    font-size: 1em;
-  }
-
-  p {
-    font-size: 1em;
-  }
-}
-
-/* Tablets */
-@media (min-width: 768px) {
-
-}
-
-/* Small Desktops */
-@media (min-width: 992px) {
-
-}
-
-/* large desktops */
-@media (min-width: 1200px) {
-
 }
